@@ -71,6 +71,10 @@ nav div {
 
 #books {
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
 }
 
 #book {
@@ -95,6 +99,8 @@ nav div {
     width: 100px;
     height: 150px;
     border: 1px solid black;
+    background-size: cover;
+    background-position: center;
 }
 
 #delete, .close {
